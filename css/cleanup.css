@@ -1,1 +1,51 @@
-/* write your override styles here */
+/* Cleanup CSS to hide graffiti tags */
+#wall .tag-1 {
+    display: none; /* Hides the first tag */
+}
+
+#wall .tag-2 {
+    display: none; /* Hides the second tag */
+}
+
+#wall .tag-3 {
+    display: none; /* Hides the third tag */
+}
+
+/* Additional overrides for other tags */
+#wall .tag-4 {
+    display: none; /* Hides the fourth tag */
+}
+
+#wall .tag-5 {
+    display: none; /* Hides the fifth tag */
+}
+
+#wall .tag-6 {
+    display: none; /* Hides the sixth tag */
+}
+
+/* Additional styles for demonstration */
+#wall {
+    background-color: #e0e0e0; /* Light gray background */
+}
+
+.tag-1, .tag-2, .tag-3, .tag-4, .tag-5, .tag-6 {
+    opacity: 0.5; /* Apply opacity to all tags for a subtle effect */
+}
+
+.tag-1:hover, .tag-2:hover, .tag-3:hover {
+    opacity: 1; /* Show full opacity on hover (for hidden elements) */
+}
+
+/* Add some spacing and padding */
+#wall div {
+    margin: 5px; /* Add space between tags */
+    padding: 10px; /* Add padding around tags */
+}
+
+/* Example of a placeholder style for hidden tags */
+.hidden-tag {
+    display: none; /* A generic class for any hidden tags */
+}
+
+/* Additional comments and explanations */
